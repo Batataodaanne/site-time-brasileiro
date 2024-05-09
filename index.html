@@ -1,116 +1,103 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meus objetivos do ano</title>
+    <title>Equipe Alura Start</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
-
 <body>
-    <section class="conteudo-principal">
-        <h2 class="titulo-principal">Meus objetivos do ano<span>_</span></h2>
-        <div class="conteudo">
-            <div class="botoes">
-                <button class="botao ativo">Cursos na Alura</button>
-                <button class="botao">Criar projetos em Javascript</button>
-                <button class="botao">Criar um portfolio</button>
-                <button class="botao">Atualizar meu currículo</button>
-            </div>
-            <div class="abas-textos">
-                <div class="aba-conteudo ativo">
-                    <h3 class="aba-conteudo-titulo-principal">Estudar 4 cursos na Alura</h3>
-                    <h4 class="aba-conteudo-titulo-secundario">Tempo para completar o objetivo</h4>
-                    <div class="contador">
-                        <div class="contador-digito">
-                            <p class="contador-digito-numero" id="dias0"></p>
-                            <p class="contador-digito-texto">dias</p>
-                        </div>
-                        <div class="contador-digito">
-                            <p class="contador-digito-numero" id="horas0"></p>
-                            <p class="contador-digito-texto">horas</p>
-                        </div>
-                        <div class="contador-digito">
-                            <p class="contador-digito-numero" id="min0"></p>
-                            <p class="contador-digito-texto">min</p>
-                        </div>
-                        <div class="contador-digito">
-                            <p class="contador-digito-numero" id="seg0"></p>
-                            <p class="contador-digito-texto">seg</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="aba-conteudo">
-                    <h3 class="aba-conteudo-titulo-principal">Criar 5 projetos em Javascript</h3>
-                    <h4 class="aba-conteudo-titulo-secundario">Tempo para completar o objetivo</h4>
-                    <div class="contador">
-                        <div class="contador-digito">
-                            <p class="contador-digito-numero" id="dias1"></p>
-                            <p class="contador-digito-texto">dias</p>
-                        </div>
-                        <div class="contador-digito">
-                            <p class="contador-digito-numero" id="horas1"></p>
-                            <p class="contador-digito-texto">horas</p>
-                        </div>
-                        <div class="contador-digito">
-                            <p class="contador-digito-numero" id="min1"></p>
-                            <p class="contador-digito-texto">min</p>
-                        </div>
-                        <div class="contador-digito">
-                            <p class="contador-digito-numero" id="seg1"></p>
-                            <p class="contador-digito-texto">seg</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="aba-conteudo">
-                    <h3 class="aba-conteudo-titulo-principal">Criar um portfolio com os meus 3 melhores projetos</h3>
-                    <h4 class="aba-conteudo-titulo-secundario">Tempo para completar o objetivo</h4>
-                    <div class="contador">
-                        <div class="contador-digito">
-                            <p class="contador-digito-numero" id="dias2"></p>
-                            <p class="contador-digito-texto">dias</p>
-                        </div>
-                        <div class="contador-digito">
-                            <p class="contador-digito-numero" id="horas2"></p>
-                            <p class="contador-digito-texto">horas</p>
-                        </div>
-                        <div class="contador-digito">
-                            <p class="contador-digito-numero" id="min2"></p>
-                            <p class="contador-digito-texto">min</p>
-                        </div>
-                        <div class="contador-digito">
-                            <p class="contador-digito-numero" id="seg2"></p>
-                            <p class="contador-digito-texto">seg</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="aba-conteudo">
-                    <h3 class="aba-conteudo-titulo-principal">Atualizar meu curriculo com os certificados da Alura</h3>
-                    <h4 class="aba-conteudo-titulo-secundario">Tempo para completar o objetivo</h4>
-                    <div class="contador">
-                        <div class="contador-digito">
-                            <p class="contador-digito-numero" id="dias3"></p>
-                            <p class="contador-digito-texto">dias</p>
-                        </div>
-                        <div class="contador-digito">
-                            <p class="contador-digito-numero" id="horas3"></p>
-                            <p class="contador-digito-texto">horas</p>
-                        </div>
-                        <div class="contador-digito">
-                            <p class="contador-digito-numero" id="min3"></p>
-                            <p class="contador-digito-texto">min</p>
-                        </div>
-                        <div class="contador-digito">
-                            <p class="contador-digito-numero" id="seg3"></p>
-                            <p class="contador-digito-texto">seg</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <header class="cabecalho">
+        <img class="cabecalho-imagem" src="alurastart logo.png" alt="logo da alura start">
+        <ul class="cabecalho-lista">
+            <li class="cabecalho-lista-item">Escola</li>
+            <li class="cabecalho-lista-item">Estudante</li>
+        </ul>
+    </header>
+    <section class="escola">
+        <div class="escola-div-conteudo">
+            <h2 class="escola-titulo">Sobre a Escola</h2>
+            <p class="escola-texto-um">Nosso time é a seleção nacional de voleibol feminino do Brasil,
+                administrado pela Confederação Brasileira de Voleibol (1951). 
+                É responsável pela organização de campeonatos nacionais, 
+                como a Superliga.</p>
+            <p class="escola-texto-dois">A turma mais estudiosa e famosa é a Segunda Série A. Nós somos super unidos e a turma favorita por todos os professores e professoras que nos ajudam!</p>
         </div>
+        <img class="escola-imagem" src="Formula-bro.png" alt="imagem que representa uma professora em sala de aula">
     </section>
-    <script src="main.js"></script>
-</body>
+    <section class="estudante">
+        <h2 class="estudante-titulo">Quem são nossas jogadoras mais altas?</h2>
+        <div class="estudante-todos">
+        <span></span>
+        <div class="estudante-div">
+            <img class="estudante-imagem" src="Marcelo.jpeg" alt="foto do marcelo">
+            <h3 class="estudante-nome">Thaisa Daher</h3>
+            <a href="https://github.com/marcelopaludetto"><img class="estudante-icone" src="github.png" alt="icone github"></a>
+            <a href="https://linkedin.com/marcelopaludetto"><img class="estudante-icone" src="linkedin.png" alt="icone linkedin"></a>
+            <a href="https://instagram.com/marcelopaludetto"><img class="estudante-icone" src="instagram.png" alt="icone instagram"></a>
+        </div>
+        <div class="estudante-div">
+            <img class="estudante-imagem" src="Marcelo.jpeg" alt="foto da gabi">
+            <h3 class="estudante-nome">Diana Duarte</h3>
+            <a href="https://github.com/GabrielaM-L"><img class="estudante-icone" src="github.png" alt="icone github"></a>
+            <a href="https://www.linkedin.com/in/gabriela-marcomini-de-lima/"><img class="estudante-icone" src="linkedin.png" alt="icone linkedin"></a>
+            <a href="https://www.instagram.com/gabriela_marcomini/"><img class="estudante-icone" src="instagram.png" alt="icone instagram"></a>
+        </div>
+        <div class="estudante-div">
+            <img class="estudante-imagem" src="Marcelo.jpeg" alt="foto da lizandra">
+            <h3 class="estudante-nome">Ana Cristina</h3>
+            <a href="https://github.com/LizandraDuarte40"><img class="estudante-icone" src="github.png" alt="icone github"></a>
+            <a href="https://www.linkedin.com/in/lizandrarlm-duarte/"><img class="estudante-icone" src="linkedin.png" alt="icone linkedin"></a>
+            <a href="https://www.instagram.com/lizandrarlm"><img class="estudante-icone" src="instagram.png" alt="icone instagram"></a>
+        </div>
+        <span></span>
+        <span></span>
+        <div class="estudante-div">
+            <img class="estudante-imagem" src="Marcelo.jpeg" alt="foto da joice">
+            <h3 class="estudante-nome">Kisy Nascimento</h3>
+            <a href="https://github.com/JoiceAlura"><img class="estudante-icone" src="github.png" alt="icone github"></a>
+            <a href="https://www.linkedin.com/in/joicebarbaresco/"><img class="estudante-icone" src="linkedin.png" alt="icone linkedin"></a>
+            <a href="https://www.instagram.com/joicebarbaresco/"><img class="estudante-icone" src="instagram.png" alt="icone instagram"></a>
+        </div>
+        <div class="estudante-div">
+            <img class="estudante-imagem" src="Marcelo.jpeg" alt="foto da maria">
+            <h3 class="estudante-nome">Júlia Bergmann</h3>
+            <a href="https://github.com/MagePSR"><img class="estudante-icone" src="github.png" alt="icone github"></a>
+            <a href="https://www.linkedin.com/in/mariageovanna"><img class="estudante-icone" src="linkedin.png" alt="icone linkedin"></a>
+            <a href="https://www.instagram.com/magpsr/"><img class="estudante-icone" src="instagram.png" alt="icone instagram"></a>
+        </div>
+        <div class="estudante-div">
+            <img class="estudante-imagem" src="Marcelo.jpeg" alt="foto da olhe">
+            <h3 class="estudante-nome">Tainara Santos</h3>
+            <img class="estudante-icone" src="github.png" alt="icone github">
+            <a href="https://www.linkedin.com/in/olhe/"><img class="estudante-icone" src="linkedin.png" alt="icone linkedin"></a>
+            <a href="https://github.com/olhe12"><img class="estudante-icone" src="instagram.png" alt="icone instagram"></a>
+        </div>
+        <span></span>
+        <span></span>
+        <div class="estudante-div">
+            <img class="estudante-imagem" src="Marcelo.jpeg" alt="foto da rafa">
+            <h3 class="estudante-nome">Lorena Viezel</h3>
+            <a href="https://github.com/rafaelamunhoz12"><img class="estudante-icone" src="github.png" alt="icone github"></a>
+            <a href="http://linkedin.com/in/rafaela-felix-munhoz-oliveira-02160a10a"><img class="estudante-icone" src="linkedin.png" alt="icone linkedin"></a>
+            <a href="https://www.instagram.com/rafafmo/"><img class="estudante-icone" src="instagram.png" alt="icone instagram"></a>
+        </div>
+        <div class="estudante-div">
+            <img class="estudante-imagem" src="Marcelo.jpeg" alt="foto da thais">
+            <h3 class="estudante-nome">Maiara Basso</h3>
+            <a href="https://github.com/Thaispianucci"><img class="estudante-icone" src="github.png" alt="icone github"></a>
+            <a href="https://www.linkedin.com/in/thais-pianucci-benedicto-54a9a416/"><img class="estudante-icone" src="linkedin.png" alt="icone linkedin"></a>
+            <a href="https://www.instagram.com/thaispianucci/"><img class="estudante-icone" src="instagram.png" alt="icone instagram"></a>
+        </div>
 
+    </div>
+    </section>
+    <footer class="rodape">
+        <img class="rodape-imagem"src="alurastart logo.png" alt="logo da alura start">
+    </footer>
+</body>
 </html>
